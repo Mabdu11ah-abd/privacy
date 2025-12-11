@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[APP NAME] - Privacy Policy</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; max-width: 800px; margin: 40px auto; padding: 20px; border: 1px solid #ccc; border-radius: 8px; }
+        h1 { border-bottom: 2px solid #333; padding-bottom: 10px; }
+        h2 { color: #555; margin-top: 25px; }
+        .date { font-style: italic; color: #777; }
+        ul { padding-left: 20px; }
+    </style>
+</head>
+<body>
+
+    <h1>Privacy Policy for [APP NAME]</h1>
+    <p class="date"><strong>Effective Date:</strong> [DATE, e.g., December 11, 2025]</p>
+    <p>This Privacy Policy describes how [YOUR NAME/COMPANY NAME] ("We," "Us," or "Our") handles the minimal information accessed through the LinkedIn API when you use our automated posting service, "[APP NAME]."</p>
+
+    <h2>1. Introduction</h2>
+    <p>[APP NAME] is an automation designed to facilitate the automatic posting of content to your designated LinkedIn accounts or pages via the n8n platform. We are committed to protecting the privacy and security of your information in compliance with the LinkedIn Developer Agreement.</p>
+
+    <h2>2. Information Accessed via LinkedIn API</h2>
+    <p>We use the LinkedIn OAuth 2.0 authorization process to gain permission (scopes) to post content on your behalf. The specific data we access is strictly limited to what is necessary for the function of the automation:</p>
+    <ul>
+        <li><strong>Basic Profile Data (e.g., Name, Profile ID):</strong> This is collected during the OAuth connection process solely to verify your account identity and authorize the connection.</li>
+        <li><strong>Permissions for Content Posting (the 'Share' scope):</strong> We request the ability to post content (text, links, images) to the authorized profile or Company Page.</li>
+        <li><strong>Account Tokens:</strong> We securely store the OAuth access token (within the n8n credential) provided by LinkedIn to maintain the authorized connection for automated posting.</li>
+    </ul>
+    <p><strong>We DO NOT collect, store, or process any other Personally Identifiable Information (PII)</strong>, such as your connections' data, direct messages, contact information, email address, or sensitive profile details.</p>
+
+    <h2>3. Purpose of Data Processing</h2>
+    <p>The sole purpose of accessing the LinkedIn API data is:</p>
+    <ul>
+        <li>To **authenticate** your identity as the owner of the LinkedIn account or page.</li>
+        <li>To **execute the automation** (i.e., publish content to your LinkedIn profile/page as directed by your n8n workflow).</li>
+    </ul>
+
+    <h2>4. Data Storage and Retention</h2>
+    <p>The only data we retain is the necessary **Access Token** required to execute the posting automation. This token is stored securely within your private n8n instance and is subject to the security measures of your n8n deployment.</p>
+    <ul>
+        <li>We **DO NOT** permanently store any content, post history, or user profile data from LinkedIn on external servers.</li>
+        <li>We **DO NOT** sell, rent, or trade your LinkedIn data or access tokens to any third parties.</li>
+    </ul>
+
+    <h2>5. How to Revoke Access</h2>
+    <p>You maintain full control over the connection. You can revoke our application's access at any time directly through your LinkedIn account settings:</p>
+    <ol>
+        <li>Go to your LinkedIn **Settings & Privacy**.</li>
+        <li>Navigate to the **Data privacy** section.</li>
+        <li>Find **Other applications** (or similar) and disconnect the "[APP NAME]" application.</li>
+    </ol>
+    <p>Revoking access will immediately prevent the n8n automation from posting to your account, and the stored access token will become invalid.</p>
+
+    <h2>6. Compliance</h2>
+    <p>We adhere to the LinkedIn Developer Agreement and all associated policies, including limitations on data usage and retention.</p>
+
+    <h2>7. Contact Information</h2>
+    <p>If you have any questions or concerns about this Privacy Policy or your data, please contact us at:</p>
+    <p><strong>Email:</strong> [YOUR CONTACT EMAIL ADDRESS]</p>
+    <p><strong>Name/Company:</strong> [YOUR NAME/COMPANY NAME]</p>
+
+</body>
+</html>
